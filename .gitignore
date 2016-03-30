@@ -1,3 +1,19 @@
+### Tags template
+# Ignore tags created by etags, ctags, gtags (GNU global) and cscope
+TAGS
+!TAGS/
+tags
+!tags/
+gtags.files
+GTAGS
+GRTAGS
+GPATH
+cscope.files
+cscope.out
+cscope.in.out
+cscope.po.out
+
+
 #RallyAPIcredentials should not be checked in - it should be included by anyone who wants to run tests
 RallyAPIcredentials*
 
